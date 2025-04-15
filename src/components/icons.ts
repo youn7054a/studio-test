@@ -31,7 +31,7 @@ import {
 } from 'lucide-react';
 
 const Icons = {
-  arrowRight: ArrowRight,
+  ArrowRightIcon: ArrowRight,
   check: Check,
   chevronDown: ChevronsUpDown,
   circle: Circle,

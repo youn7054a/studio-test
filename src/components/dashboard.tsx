@@ -12,19 +12,19 @@ export function Dashboard() {
     <div className="container mx-auto p-4">
       <h1 className="text-2xl font-bold">Dashboard</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
-        <Card>
+        <Card className="rounded-lg shadow-md">
           <CardHeader>
             <CardTitle>Total Revenue</CardTitle>
           </CardHeader>
           <CardContent>${totalRevenue.toLocaleString()}</CardContent>
         </Card>
-        <Card>
+        <Card className="rounded-lg shadow-md">
           <CardHeader>
             <CardTitle>Total Expenses</CardTitle>
           </CardHeader>
           <CardContent>${totalExpenses.toLocaleString()}</CardContent>
         </Card>
-        <Card>
+        <Card className="rounded-lg shadow-md">
           <CardHeader>
             <CardTitle>Profit</CardTitle>
           </CardHeader>
