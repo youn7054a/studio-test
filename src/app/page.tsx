@@ -37,7 +37,7 @@ export default function Home() {
             <SidebarMenuItem>
               <Icons.list className="mr-2 h-4 w-4" />
               <a href="#" onClick={() => router.push('/expenses')}>
-                Expenses
+                Expenses!!!!!!
               </a>
             </SidebarMenuItem>
             <SidebarMenuItem>
