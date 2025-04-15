@@ -64,7 +64,7 @@ export function Dashboard() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
         <Card className="rounded-lg shadow-md">
           <CardHeader>
-            <CardTitle>All Revenue!!!!!~</CardTitle>
+            <CardTitle>All Revenue!!!!!!!!!!!!!!!!!!!~</CardTitle>
           </CardHeader>
           <CardContent>${totalRevenue.toLocaleString()}</CardContent>
         </Card>
